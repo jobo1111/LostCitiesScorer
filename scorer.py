@@ -36,7 +36,7 @@ def main():
         print(f"Scores for round {i+1} are \nPlayer 1: {player_scores_per_round[0]}\nPlayer 2: {player_scores_per_round[1]}")
         player_scores[0] += player_scores_per_round[0]
         player_scores[1] += player_scores_per_round[1]
-    print(f"\nFinal scores are \nPlayer 1: {player_scores_per_round[0]}\nPlayer 2: {player_scores_per_round[1]}")
+    print(f"\nFinal scores are \nPlayer 1: {player_scores[0]}\nPlayer 2: {player_scores[1]}")
     print(f"\nThe winner is Player {'1' if player_scores[0] > player_scores[1] else '2'}")
 
 if __name__ == '__main__':
